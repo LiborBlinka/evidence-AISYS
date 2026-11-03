@@ -1,0 +1,28 @@
+# Data z provozu – nepatří do repozitáře
+*.dbf
+*.DBF
+*.accdb
+*.mdb
+*.ldb
+*.laccdb
+aisys_data.sql
+*_data.sql
+migrace_report.md
+*.sql.gz
+
+# Konfigurace s hesly
+config/config.php
+.env
+
+# Nahrané soubory a logy aplikace
+storage/import/*
+!storage/import/.gitkeep
+*.log
+
+# Systém / editory
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
